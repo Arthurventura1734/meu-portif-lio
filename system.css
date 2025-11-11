@@ -1,0 +1,37 @@
+h1{ 
+    color: aqua;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.eu {
+     width: 150px;          /* largura */
+  height: 150px;         /* altura */
+  border-radius: 50%;   /* deixa redonda */
+  object-fit: cover;    /* ajusta a imagem dentro do espaço */
+    display: block;      /* transforma a imagem em bloco */
+  margin: 0 auto;      /* centraliza horizontalmente */
+}
+.caixa {
+      display: flex;              /* coloca imagem e texto lado a lado */
+  align-items: center;        /* alinha verticalmente */
+  gap: 20px;                  /* espaço entre imagem e texto */
+  margin-bottom: 30px;        /* espaço entre um projeto e outro */
+}
+.caixa img {
+     width: 200px;               /* tamanho fixo da imagem */
+  border-radius: 10px;        /* cantos arredondados */
+}
+.caixa p {
+      max-width: 600px;           /* limite de largura pro texto */
+  line-height: 1.5;           /* espaçamento entre linhas */
+  text-align: justify;        /* deixa o texto alinhado */
+}
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+h2 {
+    text-align: center;
+}
